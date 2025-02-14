@@ -1,443 +1,594 @@
-{
- "categorias2": [
-    {
-      "id": 1,
-      "nombre": "Pizzas",
-      "fotoUrl": "assets/p1.png",
-      "productos": [
-        {
-          "id": "1",
-          "idCategoria": "1",
-          "cod": "11",
-          "nombre":"Pizza Caprichosa",
-          "precio": 5,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Tomate","Jamón","Queso", "Champiñones", "Pimientos"],
-          "fotoUrl": "assets/p1.png"
-        },
-        {
-          "id": "2",
-          "idCategoria": "1",
-          "cod": "12",
-          "nombre":"Pizza New-York",
-          "precio": 9,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Tomate","Aceitunas","Queso", "Albahaca"],
-          "fotoUrl": "assets/p2.png"
-        },
-        {
-          "id": "3",
-          "idCategoria": "1",
-          "cod": "13",
-          "nombre":"Pizza Pepperoni",
-          "precio": 5,
-          "esVegano":true,
-          "esCeliaco":false,
-          "ingredientes": ["Tomate","Pepperoni","Mozarella"],
-          "fotoUrl": "assets/p3.png"
-        },
-        {
-          "id": "4",
-          "idCategoria": "1",
-          "cod": "14",
-          "nombre":"Pizza Salchicha",
-          "precio": 5,
-          "esVegano":false,
-          "esCeliaco":true,
-          "ingredientes": ["Tomate","Salchicha","Queso", "Champiñones"],
-          "fotoUrl": "assets/p4.png"
-        },
-        {
-          "id": "5",
-          "idCategoria": "1",
-          "cod": "15",
-          "nombre":"Pizza Rabbiata",
-          "precio": 9,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Tomate","Chorizo","Queso", "Salsa BBQ"],
-          "fotoUrl": "assets/p5.png"
-        },
-        {
-          "id": "6",
-          "idCategoria": "1",
-          "cod": "16",
-          "nombre":"Pizza Margarita",
-          "precio": 6,
-          "esVegano":true,
-          "esCeliaco":true,
-          "ingredientes": ["Tomate","Albahaca","Queso"],
-          "fotoUrl": "assets/p6.png"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "nombre": "Burgers",
-      "fotoUrl": "assets/b2.png",
-      "productos": [
-        {
-          "id": "1",
-          "idCategoria": "2",
-          "cod": "21",
-          "nombre":"Hamburguesa con queso",
-          "precio": 5,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Carne de ternera","Pan Brioche","Queso"],
-          "fotoUrl": "assets/b1.png"
-        },
-        {
-          "id": "2",
-          "idCategoria": "2",
-          "cod": "22",
-          "nombre":"Hamburguesa especial",
-          "precio": 9,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Carne de ternera","Pan Brioche","Queso", "Tomate", "Lechuga"],
-          "fotoUrl": "assets/b2.png"
-        },
-        {
-          "id": "3",
-          "idCategoria": "2",
-          "cod": "23",
-          "nombre":"Hamburguesa vegana",
-          "precio": 5,
-          "esVegano":true,
-          "esCeliaco":false,
-          "ingredientes": ["Medallón a base de lentejas","Pan Brioche","Tomate"],
-          "fotoUrl": "assets/b3.png"
-        },
-        {
-          "id": "4",
-          "idCategoria": "2",
-          "cod": "24",
-          "nombre":"Hamburguesa celíaca",
-          "precio": 5,
-          "esVegano":false,
-          "esCeliaco":true,
-          "ingredientes": ["Carne de ternera","Pan libre de tacc","Queso"],
-          "fotoUrl": "assets/b4.png"
-        },
-        {
-          "id": "5",
-          "idCategoria": "2",
-          "cod": "25",
-          "nombre":"Hamburguesa americana",
-          "precio": 9,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Carne de ternera","Pan Brioche","Queso","Salsa secreta BBQ", "Panceta"],
-          "fotoUrl": "assets/b5.png"
-        },
-        {
-          "id": "6",
-          "idCategoria": "2",
-          "cod": "26",
-          "nombre":"Medallón platero",
-          "precio": 6,
-          "esVegano":true,
-          "esCeliaco":true,
-          "ingredientes": ["Medallón a base de lentejas","Tomate","Lechuga"],
-          "fotoUrl": "assets/b6.png"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "nombre": "Postres",
-      "fotoUrl": "assets/d2.png",
-      "productos": [
-        {
-          "id": "1",
-          "idCategoria": "3",
-          "cod": "31",
-          "nombre":"Tarta de queso",
-          "precio": 3,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Queso Philadelfia","Mermelada de fresa"],
-          "fotoUrl": "assets/d1.png"
-        },
-        {
-          "id": "2",
-          "idCategoria": "3",
-          "cod": "32",
-          "nombre":"Panna Cotta",
-          "precio": 4,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Gelatina","Leche","Nata","Azucar"],
-          "fotoUrl": "assets/d2.png"
-        },
-        {
-          "id": "3",
-          "idCategoria": "3",
-          "cod": "33",
-          "nombre":"Copa de Helado",
-          "precio": 5,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Helado de Vainilla","Barquillos","Frutas del bosque"],
-          "fotoUrl": "assets/d3.png"
-        },
-        {
-          "id": "4",
-          "idCategoria": "3",
-          "cod": "34",
-          "nombre":"Helado con fresa y platano",
-          "precio": 4,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Helado","Fresa","Platano"],
-          "fotoUrl": "assets/d4.png"
-        },
-        {
-          "id": "5",
-          "idCategoria": "3",
-          "cod": "35",
-          "nombre":"Macedonia",
-          "precio": 5,
-          "esVegano":true,
-          "esCeliaco":true,
-          "ingredientes": ["Fresa","Platano","Manzana"],
-          "fotoUrl": "assets/d5.png"
-        },
-        {
-          "id": "6",
-          "idCategoria": "3",
-          "cod": "36",
-          "nombre":"Magdalena chocolate",
-          "precio": 3,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Magdalena","Chocolate"],
-          "fotoUrl": "assets/d6.png"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "nombre": "Bebidas",
-      "fotoUrl": "assets/c6.png",
-      "productos": [
-        {
-          "id": "1",
-          "idCategoria": "4",
-          "cod": "41",
-          "nombre":"Zumo de Naranja",
-          "precio": 3,
-          "esVegano":true,
-          "esCeliaco":true,
-          "ingredientes": ["Naranjas"],
-          "fotoUrl": "assets/c1.png"
-        },
-        {
-          "id": "2",
-          "idCategoria": "4",
-          "cod": "42",
-          "nombre":"Café con leche",
-          "precio": 2,
-          "esVegano":false,
-          "esCeliaco":true,
-          "ingredientes": ["Café","Leche","Azucar"],
-          "fotoUrl": "assets/c2.png"
-        },
-        {
-          "id": "3",
-          "idCategoria": "4",
-          "cod": "43",
-          "nombre":"Refrescos",
-          "precio": 2,
-          "esVegano":true,
-          "esCeliaco":false,
-          "ingredientes": ["Coca-Cola","Fanta","Neste"],
-          "fotoUrl": "assets/c3.png"
-        },
-        {
-          "id": "4",
-          "idCategoria": "4",
-          "cod": "44",
-          "nombre":"Zumos variados",
-          "precio": 3,
-          "esVegano":true,
-          "esCeliaco":true,
-          "ingredientes": ["Piña","Manzana","Pera"],
-          "fotoUrl": "assets/c4.png"
-        },
-        {
-          "id": "5",
-          "idCategoria": "4",
-          "cod": "45",
-          "nombre":"Café negro",
-          "precio": 5,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Café","Azucar"],
-          "fotoUrl": "assets/c5.png"
-        },
-        {
-          "id": "6",
-          "idCategoria": "4",
-          "cod": "46",
-          "nombre":"Cerveza",
-          "precio": 6,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Cebada","Lupulo"],
-          "fotoUrl": "assets/c6.png"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "nombre": "Combos",
-      "fotoUrl": "assets/e3.png",
-      "productos": [
-        {
-          "id": "1",
-          "idCategoria": "5",
-          "cod": "51",
-          "nombre":"Combo 01",
-          "precio": 5,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Carne de ternera","Pan Brioche","Queso"],
-          "fotoUrl": "assets/e1.png"
-        },
-        {
-          "id": "2",
-          "idCategoria": "5",
-          "cod": "52",
-          "nombre":"Combo 02",
-          "precio": 9,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Carne de ternera","Pan Brioche","Queso", "Tomate", "Lechuga"],
-          "fotoUrl": "assets/e2.png"
-        },
-        {
-          "id": "3",
-          "idCategoria": "5",
-          "cod": "53",
-          "nombre":"Combo 03",
-          "precio": 5,
-          "esVegano":true,
-          "esCeliaco":false,
-          "ingredientes": ["Medallón a base de lentejas","Pan Brioche","Tomate"],
-          "fotoUrl": "assets/e3.png"
-        },
-        {
-          "id": "4",
-          "idCategoria": "5",
-          "cod": "54",
-          "nombre":"Combo 04",
-          "precio": 5,
-          "esVegano":false,
-          "esCeliaco":true,
-          "ingredientes": ["Carne de ternera","Pan libre de tacc","Queso"],
-          "fotoUrl": "assets/e4.png"
-        },
-        {
-          "id": "5",
-          "idCategoria": "5",
-          "cod": "55",
-          "nombre":"Combo 05",
-          "precio": 9,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Carne de ternera","Pan Brioche","Queso","Salsa secreta BBQ", "Panceta"],
-          "fotoUrl": "assets/e5.png"
-        },
-        {
-          "id": "6",
-          "idCategoria": "5",
-          "cod": "56",
-          "nombre":"Combo 06",
-          "precio": 6,
-          "esVegano":true,
-          "esCeliaco":true,
-          "ingredientes": ["Medallón a base de lentejas","Tomate","Lechuga"],
-          "fotoUrl": "assets/e6.png"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "nombre": "Sugerencias",
-      "fotoUrl": "assets/d1.png",
-      "productos": [
-        {
-          "id": "1",
-          "idCategoria": "6",
-          "cod": "61",
-          "nombre":"Tarta de queso",
-          "precio": 3,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Queso Philadelfia","Mermelada de fresa"],
-          "fotoUrl": "assets/d1.png"
-        },
-        {
-          "id": "2",
-          "idCategoria": "6",
-          "cod": "62",
-          "nombre":"Café con leche",
-          "precio": 2,
-          "esVegano":false,
-          "esCeliaco":true,
-          "ingredientes": ["Café","Leche","Azucar"],
-          "fotoUrl": "assets/c2.png"
-        },
-        {
-          "id": "3",
-          "idCategoria": "6",
-          "cod": "63",
-          "nombre":"Hamburguesa especial",
-          "precio": 9,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Carne de ternera","Pan Brioche","Queso", "Tomate", "Lechuga"],
-          "fotoUrl": "assets/b2.png"
-        },
-        {
-          "id": "4",
-          "idCategoria": "6",
-          "cod": "64",
-          "nombre":"Helado con fresa y platano",
-          "precio": 4,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Helado","Fresa","Platano"],
-          "fotoUrl": "assets/d4.png"
-        },
-        {
-          "id": "5",
-          "idCategoria": "6",
-          "cod": "65",
-          "nombre":"Pizza New-York",
-          "precio": 9,
-          "esVegano":false,
-          "esCeliaco":false,
-          "ingredientes": ["Tomate","Aceitunas","Queso", "Albahaca"],
-          "fotoUrl": "assets/p2.png"
-        },
-        {
-          "id": "6",
-          "idCategoria": "6",
-          "cod": "66",
-          "nombre":"Combo 06",
-          "precio": 6,
-          "esVegano":true,
-          "esCeliaco":true,
-          "ingredientes": ["Medallón a base de lentejas","Tomate","Lechuga"],
-          "fotoUrl": "assets/e6.png"
-        }
-      ]
-    }
-  ]
-  
-}
+[
+  {
+    "id": "1",
+    "nombre": "Pizzas",
+    "fotoUrl": "assets/p1.png",
+    "productos": [
+      {
+        "id": "1",
+        "idCategoria": "1",
+        "cod": "11",
+        "nombre": "Pizza Caprichosa",
+        "precio": 5,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Tomate",
+          "Jamón",
+          "Queso",
+          "Champiñones",
+          "Pimientos"
+        ],
+        "fotoUrl": "assets/p1.png"
+      },
+      {
+        "id": "2",
+        "idCategoria": "1",
+        "cod": "12",
+        "nombre": "Pizza New-York",
+        "precio": 9,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Tomate",
+          "Aceitunas",
+          "Queso",
+          "Albahaca"
+        ],
+        "fotoUrl": "assets/p2.png"
+      },
+      {
+        "id": "3",
+        "idCategoria": "1",
+        "cod": "13",
+        "nombre": "Pizza Pepperoni",
+        "precio": 5,
+        "esVegano": true,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Tomate",
+          "Pepperoni",
+          "Mozarella"
+        ],
+        "fotoUrl": "assets/p3.png"
+      },
+      {
+        "id": "4",
+        "idCategoria": "1",
+        "cod": "14",
+        "nombre": "Pizza Salchicha",
+        "precio": 5,
+        "esVegano": false,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Tomate",
+          "Salchicha",
+          "Queso",
+          "Champiñones"
+        ],
+        "fotoUrl": "assets/p4.png"
+      },
+      {
+        "id": "5",
+        "idCategoria": "1",
+        "cod": "15",
+        "nombre": "Pizza Rabbiata",
+        "precio": 9,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Tomate",
+          "Chorizo",
+          "Queso",
+          "Salsa BBQ"
+        ],
+        "fotoUrl": "assets/p5.png"
+      },
+      {
+        "id": "6",
+        "idCategoria": "1",
+        "cod": "16",
+        "nombre": "Pizza Margarita",
+        "precio": 6,
+        "esVegano": true,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Tomate",
+          "Albahaca",
+          "Queso"
+        ],
+        "fotoUrl": "assets/p6.png"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "nombre": "Burgers",
+    "fotoUrl": "assets/b2.png",
+    "productos": [
+      {
+        "id": "1",
+        "idCategoria": "2",
+        "cod": "21",
+        "nombre": "Hamburguesa con queso",
+        "precio": 5,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan Brioche",
+          "Queso"
+        ],
+        "fotoUrl": "assets/b1.png"
+      },
+      {
+        "id": "2",
+        "idCategoria": "2",
+        "cod": "22",
+        "nombre": "Hamburguesa especial",
+        "precio": 9,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan Brioche",
+          "Queso",
+          "Tomate",
+          "Lechuga"
+        ],
+        "fotoUrl": "assets/b2.png"
+      },
+      {
+        "id": "3",
+        "idCategoria": "2",
+        "cod": "23",
+        "nombre": "Hamburguesa vegana",
+        "precio": 5,
+        "esVegano": true,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Medallón a base de lentejas",
+          "Pan Brioche",
+          "Tomate"
+        ],
+        "fotoUrl": "assets/b3.png"
+      },
+      {
+        "id": "4",
+        "idCategoria": "2",
+        "cod": "24",
+        "nombre": "Hamburguesa celíaca",
+        "precio": 5,
+        "esVegano": false,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan libre de tacc",
+          "Queso"
+        ],
+        "fotoUrl": "assets/b4.png"
+      },
+      {
+        "id": "5",
+        "idCategoria": "2",
+        "cod": "25",
+        "nombre": "Hamburguesa americana",
+        "precio": 9,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan Brioche",
+          "Queso",
+          "Salsa secreta BBQ",
+          "Panceta"
+        ],
+        "fotoUrl": "assets/b5.png"
+      },
+      {
+        "id": "6",
+        "idCategoria": "2",
+        "cod": "26",
+        "nombre": "Medallón platero",
+        "precio": 6,
+        "esVegano": true,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Medallón a base de lentejas",
+          "Tomate",
+          "Lechuga"
+        ],
+        "fotoUrl": "assets/b6.png"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "nombre": "Postres",
+    "fotoUrl": "assets/d2.png",
+    "productos": [
+      {
+        "id": "1",
+        "idCategoria": "3",
+        "cod": "31",
+        "nombre": "Tarta de queso",
+        "precio": 3,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Queso Philadelfia",
+          "Mermelada de fresa"
+        ],
+        "fotoUrl": "assets/d1.png"
+      },
+      {
+        "id": "2",
+        "idCategoria": "3",
+        "cod": "32",
+        "nombre": "Panna Cotta",
+        "precio": 4,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Gelatina",
+          "Leche",
+          "Nata",
+          "Azucar"
+        ],
+        "fotoUrl": "assets/d2.png"
+      },
+      {
+        "id": "3",
+        "idCategoria": "3",
+        "cod": "33",
+        "nombre": "Copa de Helado",
+        "precio": 5,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Helado de Vainilla",
+          "Barquillos",
+          "Frutas del bosque"
+        ],
+        "fotoUrl": "assets/d3.png"
+      },
+      {
+        "id": "4",
+        "idCategoria": "3",
+        "cod": "34",
+        "nombre": "Helado con fresa y platano",
+        "precio": 4,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Helado",
+          "Fresa",
+          "Platano"
+        ],
+        "fotoUrl": "assets/d4.png"
+      },
+      {
+        "id": "5",
+        "idCategoria": "3",
+        "cod": "35",
+        "nombre": "Macedonia",
+        "precio": 5,
+        "esVegano": true,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Fresa",
+          "Platano",
+          "Manzana"
+        ],
+        "fotoUrl": "assets/d5.png"
+      },
+      {
+        "id": "6",
+        "idCategoria": "3",
+        "cod": "36",
+        "nombre": "Magdalena chocolate",
+        "precio": 3,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Magdalena",
+          "Chocolate"
+        ],
+        "fotoUrl": "assets/d6.png"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "nombre": "Bebidas",
+    "fotoUrl": "assets/c6.png",
+    "productos": [
+      {
+        "id": "1",
+        "idCategoria": "4",
+        "cod": "41",
+        "nombre": "Zumo de Naranja",
+        "precio": 3,
+        "esVegano": true,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Naranjas"
+        ],
+        "fotoUrl": "assets/c1.png"
+      },
+      {
+        "id": "2",
+        "idCategoria": "4",
+        "cod": "42",
+        "nombre": "Café con leche",
+        "precio": 2,
+        "esVegano": false,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Café",
+          "Leche",
+          "Azucar"
+        ],
+        "fotoUrl": "assets/c2.png"
+      },
+      {
+        "id": "3",
+        "idCategoria": "4",
+        "cod": "43",
+        "nombre": "Refrescos",
+        "precio": 2,
+        "esVegano": true,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Coca-Cola",
+          "Fanta",
+          "Neste"
+        ],
+        "fotoUrl": "assets/c3.png"
+      },
+      {
+        "id": "4",
+        "idCategoria": "4",
+        "cod": "44",
+        "nombre": "Zumos variados",
+        "precio": 3,
+        "esVegano": true,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Piña",
+          "Manzana",
+          "Pera"
+        ],
+        "fotoUrl": "assets/c4.png"
+      },
+      {
+        "id": "5",
+        "idCategoria": "4",
+        "cod": "45",
+        "nombre": "Café negro",
+        "precio": 5,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Café",
+          "Azucar"
+        ],
+        "fotoUrl": "assets/c5.png"
+      },
+      {
+        "id": "6",
+        "idCategoria": "4",
+        "cod": "46",
+        "nombre": "Cerveza",
+        "precio": 6,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Cebada",
+          "Lupulo"
+        ],
+        "fotoUrl": "assets/c6.png"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "nombre": "Combos",
+    "fotoUrl": "assets/e3.png",
+    "productos": [
+      {
+        "id": "1",
+        "idCategoria": "5",
+        "cod": "51",
+        "nombre": "Combo 01",
+        "precio": 5,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan Brioche",
+          "Queso"
+        ],
+        "fotoUrl": "assets/e1.png"
+      },
+      {
+        "id": "2",
+        "idCategoria": "5",
+        "cod": "52",
+        "nombre": "Combo 02",
+        "precio": 9,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan Brioche",
+          "Queso",
+          "Tomate",
+          "Lechuga"
+        ],
+        "fotoUrl": "assets/e2.png"
+      },
+      {
+        "id": "3",
+        "idCategoria": "5",
+        "cod": "53",
+        "nombre": "Combo 03",
+        "precio": 5,
+        "esVegano": true,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Medallón a base de lentejas",
+          "Pan Brioche",
+          "Tomate"
+        ],
+        "fotoUrl": "assets/e3.png"
+      },
+      {
+        "id": "4",
+        "idCategoria": "5",
+        "cod": "54",
+        "nombre": "Combo 04",
+        "precio": 5,
+        "esVegano": false,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan libre de tacc",
+          "Queso"
+        ],
+        "fotoUrl": "assets/e4.png"
+      },
+      {
+        "id": "5",
+        "idCategoria": "5",
+        "cod": "55",
+        "nombre": "Combo 05",
+        "precio": 9,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan Brioche",
+          "Queso",
+          "Salsa secreta BBQ",
+          "Panceta"
+        ],
+        "fotoUrl": "assets/e5.png"
+      },
+      {
+        "id": "6",
+        "idCategoria": "5",
+        "cod": "56",
+        "nombre": "Combo 06",
+        "precio": 6,
+        "esVegano": true,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Medallón a base de lentejas",
+          "Tomate",
+          "Lechuga"
+        ],
+        "fotoUrl": "assets/e6.png"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "nombre": "Sugerencias",
+    "fotoUrl": "assets/d1.png",
+    "productos": [
+      {
+        "id": "1",
+        "idCategoria": "6",
+        "cod": "61",
+        "nombre": "Tarta de queso",
+        "precio": 3,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Queso Philadelfia",
+          "Mermelada de fresa"
+        ],
+        "fotoUrl": "assets/d1.png"
+      },
+      {
+        "id": "2",
+        "idCategoria": "6",
+        "cod": "62",
+        "nombre": "Café con leche",
+        "precio": 2,
+        "esVegano": false,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Café",
+          "Leche",
+          "Azucar"
+        ],
+        "fotoUrl": "assets/c2.png"
+      },
+      {
+        "id": "3",
+        "idCategoria": "6",
+        "cod": "63",
+        "nombre": "Hamburguesa especial",
+        "precio": 9,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Carne de ternera",
+          "Pan Brioche",
+          "Queso",
+          "Tomate",
+          "Lechuga"
+        ],
+        "fotoUrl": "assets/b2.png"
+      },
+      {
+        "id": "4",
+        "idCategoria": "6",
+        "cod": "64",
+        "nombre": "Helado con fresa y platano",
+        "precio": 4,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Helado",
+          "Fresa",
+          "Platano"
+        ],
+        "fotoUrl": "assets/d4.png"
+      },
+      {
+        "id": "5",
+        "idCategoria": "6",
+        "cod": "65",
+        "nombre": "Pizza New-York",
+        "precio": 9,
+        "esVegano": false,
+        "esCeliaco": false,
+        "ingredientes": [
+          "Tomate",
+          "Aceitunas",
+          "Queso",
+          "Albahaca"
+        ],
+        "fotoUrl": "assets/p2.png"
+      },
+      {
+        "id": "6",
+        "idCategoria": "6",
+        "cod": "66",
+        "nombre": "Combo 06",
+        "precio": 6,
+        "esVegano": true,
+        "esCeliaco": true,
+        "ingredientes": [
+          "Medallón a base de lentejas",
+          "Tomate",
+          "Lechuga"
+        ],
+        "fotoUrl": "assets/e6.png"
+      }
+    ]
+  }
+]
